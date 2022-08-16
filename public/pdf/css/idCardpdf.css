@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Hind Siliguri', sans-serif;
+    text-rendering: optimizeLegibility;
+    line-height: 1.3rem;
+    font-size: 1.6rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Reusable */
+  .fw-bold {
+    font-weight: 600 !important;
+  }
+  
+  .mb-1 {
+    margin-bottom: 1rem;
+  }
+  
+  .mb-2 {
+    margin-bottom: 2rem;
+  }
+  
+  .lead {
+    font-size: 1.4rem;
+    line-height: normal;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    height: 55px !important;
+  }
+  
+  .lead-1 {
+    font-size: 1.4rem;
+    line-height: normal;
+    color: #000;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .fw-bold {
+    font-weight: 600 !important;
+  }
+  
+  .mb-2 {
+    margin-bottom: 2rem;
+  }
+  
+  .p-4 {
+    padding: 4rem;
+  }
+  
+  
+  .container {
+    max-width: 62rem;
+    width: 100%;
+    margin: 3rem auto;
+  }
+  
+  .container-inner {
+    background: url('../public/id-card/1.png') no-repeat center center;  
+    /* background: green no-repeat center center; */
+    background-size: cover;
+    min-height: 40rem;
+    position: relative;
+  }
+  
+  .container-inner-back {
+    background: url('../public/id-card/2.png') no-repeat center center; 
+    background-size: cover;
+    min-height: 40rem;
+    position: relative;
+  }
+  
+  .issued-date {
+    position: absolute;
+    top: 19%;
+    left: calc(50% - 6.0rem)
+  }
+  
+  .issued-date small {
+    font-size: 1.4rem;
+    line-height: normal;
+  }
+  
+  .main-content {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    padding: .6rem 4rem;
+  }
+  
+  .card-holder-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-holder-info-left {
+    /*width: 50%;*/
+    flex-grow: 1;
+  }
+  .field {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    line-height: normal;
+    font-weight: 500;
+  }
+  
+  .field-name {
+    width: 30%;
+  }
+  .field-value {
+    width: 70%;
+  }
+  
+  
+  .avatar {
+    text-align: right;
+  }
+  .avatar img {
+    width: 14.0rem;
+    height: 14.0rem;
+    border: .3rem solid #fff;
+    border-radius: .8rem;
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-left {
+    width: 50%;
+  }
+  
+  .sign {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    position: relative;
+  }
+  
+  .signature-img {
+    width: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 12px);
+  }
+  
+  .sign small {
+    padding-right: 2rem;
+  }
+  
+  /* Reusable */
+  
+  .container {
+    max-width: 62rem;
+    width: 100%;
+    margin: 3rem auto;
+  }
+  
+  .qr-code img {
+    width: 14.0rem;
+    height: 14.0rem;
+    border-radius: .4rem;
+  }
+  
+  .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-left {
+    width: 50%;
+  }
+  
+  .card-right {
+    width: 50%;
+  }
